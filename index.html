@@ -24,7 +24,7 @@
   </head>
   <body>
     <header>
-      <h1 class="title">David Oliveros <span>Freelancer</span></h1>
+      <h1 class="title">David Oliveros <br /><span>Freelancer</span></h1>
     </header>
 
     <div class="nav-bg">
@@ -195,14 +195,14 @@
 
       <section>
         <h2>Contact me!</h2>
-        <form class="formu">
+        <form class="form">
           <fieldset>
             <legend>Contact me by completing your details</legend>
 
             <div class="field-container">
               <div class="field">
                 <label for="">Name</label>
-                <input class="input-text" type="text" placeholder="Your name" />
+                <input class="input-text" placeholder="Your name" id="name" />
               </div>
 
               <div class="field">
@@ -211,6 +211,7 @@
                   class="input-text"
                   type="email"
                   placeholder="Your email"
+                  id="email"
                 />
               </div>
 
@@ -220,6 +221,7 @@
                   class="input-text"
                   type="tel"
                   placeholder="Your phone number"
+                  id="phone"
                 />
               </div>
 
@@ -228,7 +230,7 @@
                 <textarea
                   class="input-text"
                   name=""
-                  id=""
+                  id="message"
                   cols="30"
                   rows="2"
                 ></textarea>
@@ -248,5 +250,6 @@
         >.
       </p>
     </footer>
+    <script src="./js/scripts.js"></script>
   </body>
 </html>

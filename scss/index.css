@@ -102,6 +102,12 @@ p {
   font-size: 2rem;
 }
 
+@media (min-width: 768px) {
+  .title span {
+    font-size: 2rem;
+  }
+}
+
 /* Utilidades */
 .w-sm-100 {
   width: 85%;
@@ -262,7 +268,23 @@ p {
 }
 
 /* Contact */
-.formu {
+.error {
+  background-color: #b90000;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.correct {
+  background-color: #4ab900;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.form {
   background-color: var(--mango);
   min-width: 60rem, 100%;
   margin: 0 auto;
@@ -271,11 +293,11 @@ p {
   padding: 2rem;
 }
 
-.formu fieldset {
+.form fieldset {
   border: none;
 }
 
-.formu legend {
+.form legend {
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;

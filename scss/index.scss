@@ -101,6 +101,13 @@ p {
     font-size: 2rem;
   }
 }
+@media (min-width: 768px) {
+  .title {
+    span {
+      font-size: 2rem;
+    }
+  }
+}
 
 /* Utilidades */
 
@@ -217,7 +224,21 @@ p {
 }
 
 /* Contact */
-.formu {
+.error {
+  background-color: rgb(185, 0, 0);
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  text-transform: uppercase;
+}
+.correct {
+  background-color: rgb(74, 185, 0);
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  text-transform: uppercase;
+}
+.form {
   background-color: var(--mango);
   min-width: (60rem, 100%);
   margin: 0 auto;
